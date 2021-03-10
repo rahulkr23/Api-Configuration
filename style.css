@@ -1,0 +1,59 @@
+*{
+    margin: o;
+    padding: 0;
+}
+body{
+   
+   background:url(body.jpg); 
+  
+}
+h1{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+.imgdiv{
+    text-align: center;
+    justify-content: center;
+}
+
+.details{
+    font-weight: bold;
+    font-size: 1.5rem;
+ 
+    color: white;
+   margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.btn{
+    display: block;
+    margin: auto;
+  
+    padding: 7px 11px;
+    border: 2px solid rgb(255, 250, 250);
+    border-radius: 9px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(61, 60, 61);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+#nameid{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(218, 0, 0);
+}
+.marque{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+

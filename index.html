@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+
+        <h1>What does your name say about your personality?</h1>
+      <marquee class="marque">Rahul Kumar</marquee>
+       
+        <div class="center">
+            <div class="details">
+                <label>Enter Your Name</label>
+                <input type="text" name="" id="nameid" placeholder="Enter Your Name">
+            </div>
+            <div class="imgdiv">
+                <img src="img.png" width="200" height="200" class="imgchange">
+            </div>
+            <button class="btn">Click Here</button>
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                const name = $('#nameid').val();
+                alert(name);
+                $('.imgchange').attr('src', `https://joeschmoe.io/api/v1/${name}`);
+
+            });
+
+        });
+    </script>
+
+</body>
+
+
+</html>
